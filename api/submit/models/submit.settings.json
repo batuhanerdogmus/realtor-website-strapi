@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "submits",
+  "info": {
+    "name": "submit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "no": {
+      "type": "biginteger"
+    },
+    "address": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}
